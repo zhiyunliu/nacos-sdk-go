@@ -23,9 +23,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/nacos-group/nacos-sdk-go/common/constant"
-	"github.com/nacos-group/nacos-sdk-go/common/logger"
-	"github.com/nacos-group/nacos-sdk-go/model"
+	"github.com/zhiyunliu/nacos-sdk-go/common/constant"
+	"github.com/zhiyunliu/nacos-sdk-go/common/logger"
+	"github.com/zhiyunliu/nacos-sdk-go/model"
 )
 
 func CurrentMillis() int64 {

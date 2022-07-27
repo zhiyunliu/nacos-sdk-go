@@ -24,15 +24,15 @@ import (
 	"time"
 
 	"github.com/golang/mock/gomock"
-	"github.com/nacos-group/nacos-sdk-go/clients/cache"
-	"github.com/nacos-group/nacos-sdk-go/clients/nacos_client"
-	"github.com/nacos-group/nacos-sdk-go/common/constant"
-	"github.com/nacos-group/nacos-sdk-go/common/http_agent"
-	"github.com/nacos-group/nacos-sdk-go/mock"
-	"github.com/nacos-group/nacos-sdk-go/util"
-	"github.com/nacos-group/nacos-sdk-go/vo"
 	"github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
+	"github.com/zhiyunliu/nacos-sdk-go/clients/cache"
+	"github.com/zhiyunliu/nacos-sdk-go/clients/nacos_client"
+	"github.com/zhiyunliu/nacos-sdk-go/common/constant"
+	"github.com/zhiyunliu/nacos-sdk-go/common/http_agent"
+	"github.com/zhiyunliu/nacos-sdk-go/mock"
+	"github.com/zhiyunliu/nacos-sdk-go/util"
+	"github.com/zhiyunliu/nacos-sdk-go/vo"
 )
 
 var goVersion = runtime.Version()

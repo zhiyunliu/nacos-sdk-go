@@ -23,11 +23,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/nacos-group/nacos-sdk-go/clients/cache"
-	"github.com/nacos-group/nacos-sdk-go/common/constant"
-	"github.com/nacos-group/nacos-sdk-go/common/logger"
-	"github.com/nacos-group/nacos-sdk-go/model"
-	"github.com/nacos-group/nacos-sdk-go/util"
+	"github.com/zhiyunliu/nacos-sdk-go/clients/cache"
+	"github.com/zhiyunliu/nacos-sdk-go/common/constant"
+	"github.com/zhiyunliu/nacos-sdk-go/common/logger"
+	"github.com/zhiyunliu/nacos-sdk-go/model"
+	"github.com/zhiyunliu/nacos-sdk-go/util"
 	"golang.org/x/sync/semaphore"
 )
 

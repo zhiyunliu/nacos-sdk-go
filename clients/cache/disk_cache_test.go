@@ -20,8 +20,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/nacos-group/nacos-sdk-go/common/constant"
 	"github.com/stretchr/testify/assert"
+	"github.com/zhiyunliu/nacos-sdk-go/common/constant"
 )
 
 func TestGetFileName(t *testing.T) {

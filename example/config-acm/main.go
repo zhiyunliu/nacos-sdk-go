@@ -19,9 +19,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/nacos-group/nacos-sdk-go/clients"
-	"github.com/nacos-group/nacos-sdk-go/common/constant"
-	"github.com/nacos-group/nacos-sdk-go/vo"
+	"github.com/zhiyunliu/nacos-sdk-go/clients"
+	"github.com/zhiyunliu/nacos-sdk-go/common/constant"
+	"github.com/zhiyunliu/nacos-sdk-go/vo"
 )
 
 func main() {

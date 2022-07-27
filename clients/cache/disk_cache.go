@@ -26,11 +26,11 @@ import (
 	"strings"
 
 	"github.com/go-errors/errors"
-	"github.com/nacos-group/nacos-sdk-go/common/constant"
-	"github.com/nacos-group/nacos-sdk-go/common/file"
-	"github.com/nacos-group/nacos-sdk-go/common/logger"
-	"github.com/nacos-group/nacos-sdk-go/model"
-	"github.com/nacos-group/nacos-sdk-go/util"
+	"github.com/zhiyunliu/nacos-sdk-go/common/constant"
+	"github.com/zhiyunliu/nacos-sdk-go/common/file"
+	"github.com/zhiyunliu/nacos-sdk-go/common/logger"
+	"github.com/zhiyunliu/nacos-sdk-go/model"
+	"github.com/zhiyunliu/nacos-sdk-go/util"
 )
 
 func GetFileName(cacheKey string, cacheDir string) string {

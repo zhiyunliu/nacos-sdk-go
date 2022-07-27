@@ -20,11 +20,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nacos-group/nacos-sdk-go/common/nacos_server"
+	"github.com/zhiyunliu/nacos-sdk-go/common/nacos_server"
 
-	"github.com/nacos-group/nacos-sdk-go/model"
-	"github.com/nacos-group/nacos-sdk-go/util"
 	"github.com/stretchr/testify/assert"
+	"github.com/zhiyunliu/nacos-sdk-go/model"
+	"github.com/zhiyunliu/nacos-sdk-go/util"
 )
 
 func TestBeatReactor_AddBeatInfo(t *testing.T) {
