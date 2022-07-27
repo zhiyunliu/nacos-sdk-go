@@ -39,9 +39,9 @@ func JsonToService(result string) *model.Service {
 		logger.Errorf("failed to unmarshal json string:%s err:%+v", result, err)
 		return nil
 	}
-	if len(service.Hosts) == 0 {
-		logger.Warnf("instance list is empty,json string:%s", result)
-	}
+	// if len(service.Hosts) == 0 {
+	// 	logger.Warnf("instance list is empty,json string:%s", result)
+	// }
 	return &service
 
 }
